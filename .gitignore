@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+venv/
+.env/
+ENV/
+.venv/
+
+# C/C++
+*.exe
+*.out
+*.o
+*.obj
+*.gch
+*.a
+*.so
+*.dll
+
+# Java
+*.class
+
+# Common IDE/editor files
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# OS system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup or temporary files
+*~
+*.swp
+*.bak
+
+# Ignore large image folders
+dataset/
+split_dataset/
+
+# In models/, ignore only large/trained model files — keep code
+models/*.h5
+models/*.hdf5
+models/*.pt
+models/*.pkl
+models/*.ckpt
+models/*.onnx
+models/*.tflite
+models/*.joblib
+models/__pycache__/
